@@ -23,7 +23,7 @@ public class MqttPublisherService {
             mqttClient.publish(topic, message);
             System.out.println("Message published to topic " + topic + ": " + payload);
         } catch (MqttException e) {
-            e.printStackTrace();
+                e.printStackTrace();
         }
     }
 }

@@ -9,8 +9,8 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class MqttConfig {
 
-    private final String brokerUrl = "tcp://34.29.124.25:1883";
-    private final String clientId = "emqx_NTA1Nz";
+    private final String brokerUrl = "tcp://104.197.9.105:1883";
+    private final String clientId = "cesar_camera_semaforo";
 
     @Bean
     public MqttClient mqttClient() {
